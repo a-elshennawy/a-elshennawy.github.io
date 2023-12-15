@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love You</title>
+</head>
+<style>
+    body {
+        align-items: center;
+        text-align: center;
+        padding: 200px;
+        background-image: url("Cats.jpg");
+        background-repeat: no-repeat;
+        background-size:auto;
+      }
+      form {
+        max-width: 400px; /* Adjust the maximum width as per your preference */
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Style for the label */
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    /* Style for the input field */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    /* Style for the hint */
+    h4 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Style for the button */
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <form>
+        <label for="name">Tell me your name</label>
+        <h4>Hint: You're Btata</h4>
+        <input type="text" id="name" name="name">
+        <button type="button" onclick="checkLove()">Hit It</button>
+    </form>
+
+    <script>
+        function checkLove() {
+            var name = document.getElementById("name").value;
+
+            if (name.toLowerCase() === "btata") {
+                alert("Yeah, I know... I love you, though <3");
+            } else {
+                alert("Nope, go away");
+            }
+        }
+    </script>
+</body>
+</html>
