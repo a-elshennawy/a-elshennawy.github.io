@@ -1,0 +1,33 @@
+body {
+    background-image: url('jan.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    max-width: 80%;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+q {
+    display: block;
+    margin-top: 10px;
+}
