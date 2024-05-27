@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Do You ?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="question">
+        <h2>Do You Love Me ?</h2>
+    </div>
+    <br>
+    <div class="container">
+        <div class="pane">
+            <label class="label">
+                <span>Yes</span>
+                <input id="yes" class="input" name="radio" type="radio" onclick="handleRadioClick('index.html')">
+            </label>
+            <label class="label">
+                <span>No</span>
+                <input id="no" class="input" name="radio" type="radio" onclick="handleRadioClick('no.html')">
+            </label>
+            <label class="label">
+                <span>Idk</span>
+                <input id="idk" class="input" name="radio" type="radio" onclick="handleRadioClick('idk.html')">
+            </label>
+            <span class="selection"></span>
+        </div>
+    </div>
+
+    <script>
+        function handleRadioClick(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+
+</html>
