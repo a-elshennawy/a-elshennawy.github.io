@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miss me ? </title>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Centered Button</title>
+        <style>
+            body {
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .miss {
+                height: 50px;
+                width: 180px;
+                background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+                border-radius: 25px;
+                animation: animate 1.5s linear infinite;
+                border: none;
+                cursor: pointer;
+                position: relative;
+            }
+
+            .miss,
+            .display,
+            #msg {
+                transition: 0.3s;
+            }
+
+            .miss:active .display {
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+            .miss:active .display #msg {
+                -webkit-text-fill-color: #1b1b1b;
+            }
+
+            .miss:hover {
+                scale: 1.15;
+                animation: animate 0.7s linear infinite;
+                transform: translateY(-15px);
+            }
+
+            .miss .display,
+            .button span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .miss .display {
+                z-index: 1;
+                background-color: #1b1b1b;
+                height: 42.5px;
+                width: 172.5px;
+                border-radius: 20px;
+                text-align: center;
+            }
+
+            .miss .display #msg {
+                line-height: 42.5px;
+                font-size: 25px;
+                font-weight: 800;
+                letter-spacing: 3px;
+                background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            @keyframes animate {
+                100% {
+                    filter: hue-rotate(360deg);
+                }
+            }
+
+            .miss span {
+                height: 100%;
+                width: 100%;
+                background: inherit;
+                border-radius: 25px;
+            }
+
+            .miss span:first-child {
+                filter: blur(15px);
+            }
+
+            .miss span:last-child {
+                filter: blur(15px);
+                transition: 0.3s;
+            }
+
+            .miss:hover span:last-child {
+                width: 110%;
+                height: 120%;
+            }
+        </style>
+    </head>
+
+    </html>
+
+</head>
+
+<body>
+    <a href="https://wa.me/+201033926177?text=I%20miss%20you%2C%20Shenno" target="_blank">
+        <button class="miss">
+            <div class="display">
+                <div id="msg" type="button" onclick="handleClick()">DO IT</div>
+            </div>
+
+            <span></span>
+            <span></span>
+        </button>
+    </a>
+
+    <script>
+        function handleClick() {
+            console.log("Button clicked!");
+        }
+    </script>
+
+</body>
+
+</html>
