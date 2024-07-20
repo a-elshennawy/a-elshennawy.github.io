@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Birthday ❤</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #timer {
+            display: flex;
+            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        #timer div {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+        }
+
+        #timer div:not(:last-child)::after {
+            content: ":";
+            margin-left: 5px;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-family: serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="timer">
+        <div id="days"></div>
+        <div id="hours"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+    </div>
+    <script src="bd.js"></script>
+
+    <div>
+        <p>
+            Till the end of the time, i will always love you ❤
+        </p>
+    </div>
+</body>
+
+</html>
