@@ -62,16 +62,7 @@ q {
     text-decoration: none;
 }
 
-.dec,
-.private,
-.jan,
-.feb,
-.may,
-.may-25,
-.june-13,
-.miss,
-.bd,
-.us {
+.dec .private .jan .feb .may .may-25 .june-13 .miss .bd .us {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,16 +123,7 @@ strong {
     background: rgba(142, 81, 234, 0.704);
 }
 
-.dec,
-.private,
-.jan,
-.feb,
-.may,
-.may-25,
-.june-13,
-.miss,
-.bd,
-.us:hover #container-stars {
+.dec .private .jan .feb .may .may-25 .june-13 .miss .bd .us:hover #container-stars {
     z-index: 1;
     background-color: #212121;
 }
@@ -149,31 +131,13 @@ strong {
 
 
 
-.dec,
-.private,
-.jan,
-.feb,
-.may,
-.may-25,
-.june-13,
-.miss,
-.bd,
-.us:hover {
+.dec .private .jan .feb .may .may-25 .june-13 .miss .bd .us:hover {
     transform: scale(1.1)
 }
 
 
 
-.dec,
-.private,
-.jan,
-.feb,
-.may,
-.may-25,
-.june-13,
-.miss,
-.bd,
-.us:active {
+.dec .private .jan .feb .may .may-25 .june-13 .miss .bd .us:active {
     border: double 4px #FE53BB;
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -184,16 +148,7 @@ strong {
 
 
 
-.dec,
-.private,
-.jan,
-.feb,
-.may,
-.may-25,
-.june-13,
-.miss,
-.bd,
-.us:active .circle {
+.dec .private .jan .feb .may .may-25 .june-13 .miss .bd .us:active .circle {
     background: #FE53BB;
 }
 
