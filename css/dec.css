@@ -1,5 +1,5 @@
 body {
-    background-image: url('feb.jpg');
+    background-image: url('img/dec.jpg');
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -25,4 +25,9 @@ p {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0;
     line-height: 1.5;
+}
+
+q {
+    display: block;
+    margin-top: 10px;
 }
