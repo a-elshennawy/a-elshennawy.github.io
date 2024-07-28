@@ -63,7 +63,6 @@ q {
 }
 
 .dec,
-.private,
 .jan,
 .feb,
 .may,
@@ -133,7 +132,6 @@ strong {
 }
 
 .dec:hover #container-stars,
-.private:hover #container-stars,
 .jan:hover #container-stars,
 .feb:hover #container-stars,
 .may:hover #container-stars,
@@ -150,7 +148,6 @@ strong {
 
 
 .dec:hover,
-.private:hover,
 .jan:hover,
 .feb:hover,
 .may:hover,
@@ -165,7 +162,6 @@ strong {
 
 
 .dec:active,
-.private:active,
 .jan:active,
 .feb:active,
 .may:active,
@@ -185,7 +181,6 @@ strong {
 
 
 .dec:active .circle,
-.private:active .circle,
 .jan:active .circle,
 .feb:active .circle,
 .may:active .circle,
