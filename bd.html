@@ -6,54 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon.jpg">
     <title>Your Birthday ❤</title>
-
-    <style>
-        body {
-            background-color: black;
-        }
-
-        #timer {
-            display: flex;
-            justify-content: center;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-        }
-
-        #timer div {
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #f1f1f1;
-        }
-
-        #timer div:not(:last-child)::after {
-            content: ":";
-            margin-left: 5px;
-        }
-
-        p {
-            color: white;
-            text-align: center;
-            font-family: serif;
-        }
-    </style>
+    <link rel="stylesheet" href="css/bd.css">
 </head>
 
 <body>
-    <div id="timer">
-        <div id="days"></div>
-        <div id="hours"></div>
-        <div id="minutes"></div>
-        <div id="seconds"></div>
+    <div class="container">
+        <h1>Till the end of the time, i will always love you ❤</h1>
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+            </ul>
+        </div>
+        <div id="content" class="emoji">
+            <span>🥳</span>
+            <span>🎉</span>
+            <span>🎂</span>
+        </div>
     </div>
     <script src="js/bd.js"></script>
+    <br>
 
-    <div>
-        <p>
-            Till the end of the time, i will always love you ❤
-        </p>
-    </div>
 </body>
 
 </html>
